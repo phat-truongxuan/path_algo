@@ -39,6 +39,9 @@ class RRT:
             randomnode = self.goal
         return randomnode
     def get_orientation(self, p1, p2, p3):
+        theta12 = ((p2[1] - p1[1]) / (p2[0] - p1[0]))  #p1[0] is x of point1 , p1[1] is y of point1
+        theta23 = ((p3[1] - p2[1]) / (p3[0] - p2[0])) 
+        
         print()
     
     def check_node_collision(self, node):
