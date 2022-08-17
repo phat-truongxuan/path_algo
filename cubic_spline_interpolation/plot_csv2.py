@@ -1,9 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Fixing random state for reproducibility
-np.random.seed(19680801)
-
 import csv
 
 x_in = []
@@ -41,19 +38,3 @@ plt.ylabel("y[m]")
 plt.legend()
 plt.show()
 
-
-# plt.rcdefaults()
-# fig, ax = plt.subplots()
-
-# y_pos = ['pick blister', 'check_blister', 'foil_peeling', 'lens_pick', 'bottle_capping']
-
-# performance = [10, 10 ,30, 40, 30]
-
-
-# ax.bar(sothutu, sotunhien,  align='center')
-# ax.set_xticks(sothutu)
-# ax.set_xticklabels(sothutu)
-
-# ax.set_xlabel('Performance')
-
-# plt.show()
